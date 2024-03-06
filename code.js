@@ -65,6 +65,7 @@ function drawFood(){
 
 function moveSnake() {    
     document.addEventListener('keydown',function(event){
+        console.log("sagiv");
         switch(event.key){
             case "ArrowRight":
                 // debugger;
